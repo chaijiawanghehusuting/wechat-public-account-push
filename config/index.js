@@ -30,7 +30,7 @@ export const config = {
     // 金山每日一句
     CIBA: true,
     // 每日一言
-    oneTalk: false,
+    oneTalk: true,
     // 土味情话(彩虹屁)
     earthyLoveWords: true,
     // 朋友圈文案
@@ -64,7 +64,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "owQO854OIseyou9pVoSqIeSlw03Q",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "pimXy_3toUyNbBU0p_BnS6PpUCLSqSby9HwdrBH-us0",
+      useTemplateId: "LuUeG1TxJhAkxoseOFHSelWTcQK9Vnd_ZlNCdfyQVFA",
       // 所在省份
       province: "浙江",
       // 所在城市
@@ -79,15 +79,15 @@ export const config = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {"type": "*生日", "name": "胡宝宝", "year": "2001", "date": "10-11"},
-        {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+        {"type": "节日", "name": "相识纪念日", "year": "2020", "date": "12-25"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-        {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+        {"type": "*生日", "name": "柴二狗", "year": "2000", "date": "03-01"},
+        {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "04-05"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        {"keyword": "love_day", date: "2021-04-05"},
+        {"keyword": "love_day", date: ""},
         // 结婚纪念日
         {"keyword": "marry_day", date: "2022-09-09"},
         // 退伍日
