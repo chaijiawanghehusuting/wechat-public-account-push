@@ -62,9 +62,9 @@ export const config = {
       // 想要发送的人的名字
       name: "胡宝宝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "owQO854Q97P51cE-QidRIVV5NmpY",
+      id: "owQO854OIseyou9pVoSqIeSlw03Q",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "4u9oOfX4TOfDBs2YOFlIW-hu0mixd9r9PaMY02A6NR0",
+      useTemplateId: "jAR_13kxWUmktIZdolVALWIAU8xfKI-IaHPBR6oFW9Q",
       // 所在省份
       province: "浙江",
       // 所在城市
@@ -82,7 +82,7 @@ export const config = {
         {"type": "节日", "name": "相识纪念日", "year": "2020", "date": "12-25"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "*生日", "name": "柴二狗", "year": "2000", "date": "03-01"},
-        {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "04-05"},
+        
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
@@ -139,7 +139,7 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "4u9oOfX4TOfDBs2YOFlIW-hu0mixd9r9PaMY02A6NR0",
+  CALLBACK_TEMPLATE_ID: "jAR_13kxWUmktIZdolVALWIAU8xfKI-IaHPBR6oFW9Q",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
